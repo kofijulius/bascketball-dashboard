@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <center>
+               HOME
+            </center>
+                <h1  class="guest-dis" id="homeTeam" >
+                    0
+                </h1>
+                <div class="btn-el">
+                    <button onclick="homePlusOne()">+1</button>
+                    <button onclick="homePlusTwo()">+2</button>
+                    <button onclick="homePlusThree()">+3</button>
+                </div>
+                <div class="resetbtn">
+                    <button onclick="resetBtn1()">RESET</button>
+                </div>
+        </div>
+        
+        <div class="guest">
+            <center>
+                GUEST
+            </center>
+                <h1 class="guest-dis" id="awayTeam">
+                    0
+                </h1>
+                <div class="btn-el">
+                    <button onclick="awayPlusOne()">+1</button>
+                    <button onclick="awayPlusTwo()">+2</button>
+                    <button onclick="awayPlusThree()">+3</button>
+                </div>
+                <div class="resetbtn">
+                    <button onclick="resetBtn2()">RESET</button>
+                </div>
+                </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+@font-face{
+    font-family: 'Seven-Segment';
+    src: url(Seven\ Segment.ttf)
+format('truetype');
+}
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.container {
+    width: 575px;
+    height: 385px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding-top: 35px;
+    padding-right: 30px;
+}
+.home {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    width: 149px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 50px;
+    
+}
+.guest {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    width: 149px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 50px;
+}
+h1{
+    width: 117px;
+    height: 120px;
+    color: #F94F6D;
+    background-color: #080001;
+    margin-left:1px ;
+    gap: 0px;
+    opacity: 0px;
+    font-family:'Seven-Segment', sans-serif;
+    font-size: 90px;
+    font-weight: 300px;
+    line-height: 126.67px;
+    text-align: center;
+    padding: 30px;
+    padding-block: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+center{
+    padding-left: 23px;
+}
+button{
+    font-weight: bold;
+    font-size: 15px;
+    font-family:'Seven-Segment', sans-serif;
+    color: #9AABD8;
+    padding-inline: 13px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    margin: 7px;
+    background-color: #1B244A;
+    border:3px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn-el{
+    display: flex;
+    justify-content: space-between 100px;
+    margin-left: 1px;
+    margin-top: px;
+}
+button:hover{
+    border:3px solid #bdc5dd;
+    color: #bdc5dd;
+}
+button:active{
+    border:3px solid #8baaff;
+    color: #9AABD8;
+}
